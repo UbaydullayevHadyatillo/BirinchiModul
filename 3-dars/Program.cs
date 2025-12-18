@@ -1,630 +1,751 @@
-﻿////homeworks1.3.1
-////
-//for (var i = 100; i < 1000; i++)
-//{
-//    sum = 0;
-//    sum += i / 1 % 10;
-//    sum += i / 10 % 10;
-//    sum += i / 100 % 10;
-//    if (sum > 20)
-//    {
-//        Console.Write($"{i}, ");
-//    }
-//}
+﻿namespace _3_dars;
 
-////
-//for (var i = 100; i < 1000; i++)
-//{
-//    if (i / 100 == i % 10  && i /10 %10 != i %10)
-//    {
-//        Console.Write($"{i}, ");
-//    }
-//}
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        //1
 
-////
-//for (var i = 10; i < 100; i++)
-//{
-//    sum = 1;
-//    sum *= i / 1 % 10;
-//    sum *= i / 10 % 10;
-//    if (sum > 12)
-//    {
-//        caunt++;
-//        fullSum += sum;
-//    }
-//}
-//Console.WriteLine($"Count(N) : {caunt}, FullSum(+) : {fullSum}");
+        //for (var i = 1; i <= 20; i++)
+        //{
+        //    Console.WriteLine(i);
+        //}
 
-////
-//for (var i = 100; i < 1000; i++)
-//{
-//    sum = i / 10 % 10;
-//    if (sum == 2 || sum == 5)
-//    {
-//        Console.Write($"{i}, ");
-//    }
-//}
+        //2
 
-////
-//intVaule1 = 5;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    Console.Write($"{intVaule1}, ");
-//}
+        //for (var i = 25; i <= 100; i++)
+        //{
+        //    Console.WriteLine(i);
+        //}
 
-////
-//intVaule1 = 3;
-//intVaule2 = 7;
-//for (var i = 0; i < intVaule2; i++)
-//{
-//    Console.Write($"{intVaule1}, ");
-//}
+        //3
 
-////
-//intVaule1 = 3;
-//intVaule2 = 7;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    Console.Write($"{intVaule2}, ");
-//}
+        //for (var i = 12; i <= 200; i++)
+        //{
+        //    Console.WriteLine(i);
+        //}
 
-////
-//intVaule1 = 9;
-//for(var i=1; i <= intVaule1; i++)
-//{
-//    if (intVaule1 % i == 0)
-//    {
-//        Console.Write($"{i}, ");
-//    }
-//}
+        //4
 
-////
-//intVaule1 = 9;
-//caunt = 0;
-//for (var i = 1; i <= intVaule1; i++)
-//{
+        //for (var i = 15; i >= 2; i--)
+        //{
+        //    Console.WriteLine(i);
+        //}
 
-//    if (intVaule1 % i == 0)
-//    {
-//        caunt++;
-//    }
-//}
-//Console.WriteLine($"{caunt}");
+        //5
 
-////
-//intVaule1 = 9;
-//fullSum = 0;
-//for (var i = 1; i <= intVaule1; i++)
-//{
+        //for (var i = 120; i >= 23; i--)
+        //{
+        //    Console.WriteLine(i);
+        //}
 
-//    if (intVaule1 % i == 0)
-//    {
-//       fullSum += i;
-//    }
-//}
-//Console.WriteLine($"{fullSum}");
+        //6
 
-///
-//intVaule1 = 11;
-//caunt = 0;
-//for (var i = 2; i <= intVaule1; i++)
-//{
-//    if (intVaule1 % i == 0)
-//    {
-//        caunt++;
-//    }
-//}
-//if (caunt == 1)
-//{
-//    Console.WriteLine($"{intVaule1} soni tub son");
-//}
-//else
-//{
-//    Console.WriteLine($"{intVaule1} soni tub son emas");
-//}
+        //for (var i = 10; i <= 50;i++)
+        //{
+        //    if(i % 2 != 0)
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
 
-////
-//intVaule1 = 11;
-//intVaule2 = 7;
-//caunt = 0;
-//for (var i = 1; i <= intVaule1; i++)
-//{
-//    if (intVaule1 % i == 0)
-//    {
-//        caunt++;
-//    }
-//}
-//for (var i = 1; i <= intVaule2; i++)
-//{
-//    if (intVaule1 % i == 0)
-//    {
-//        sum++;
-//    }
-//}
-//if (caunt == 2 && sum == 2)
-//{
-//    Console.WriteLine($"{intVaule1 + intVaule2} soni tub son");
-//}
-//else
-//{
-//    Console.WriteLine($"{intVaule1 * intVaule2} soni tub son emas");
-//}
+        //7
 
-////
-//intVaule1 = 7000;
-//for (var i = 3; i <= 60; i++)
-//{
-//    Console.WriteLine($"{i} → {i * intVaule1}");
-//}
+        //for( var i = 120; i <=250;i++)
+        //{
+        //    if(i % 2 == 0)
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
 
-////
-//intVaule1 = 50;
-//caunt = 0;
-//for (var i = 23; i <= intVaule1; i++)
-//{
-//    if (i % 3 != 0)
-//    {
-//        caunt++;
-//        Console.Write($"{i}, ");
-//    }
-//}
-//Console.WriteLine();
-//Console.WriteLine($"soni: {caunt}");
+        //8
 
-////
-//intVaule1 = 20;
-//intVaule2 = 30;
-//caunt = 0;
-//sum = 0;
-//for (var i = 1; i <= Math.Max(intVaule1,intVaule2); i++)
-//{
-//    if (intVaule1 % i == 0)
-//    {
-//        caunt++;
-//    }
-//    if (intVaule2 % i == 0)
-//    {
-//        sum++;
-//    }
-//}
-//if (caunt > sum)
-//{
-//    Console.WriteLine($"{intVaule1} bo'luvchilari ko'p");
-//}
-//else
-//{
-//    Console.WriteLine($"{intVaule2} bo'luvchilari ko'p");
-//}
+        //for( var i = 100; i >= 50;  i-- )
+        //{
+        //    if(i % 2 != 0)
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
 
-//// M: 16
-//intVaule1 = 5;
-//intVaule2 = 10;
-//fullSum = 0;
-//for (var i = intVaule1+1; i < intVaule2; i++)
-//{
-// fullSum += i;
-//}
-//Console.WriteLine($"{fullSum}");
+        //9
+        //for(var i = 80; i >= 20; i--)
+        //{
+        //    if(i % 2 == 0)
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
+
+        //10
+
+        //Console.WriteLine("a sonini b sonidan kichik bolsin !! ");
+
+        //Console.Write(" a sonini kiriting : ");
+        //var a = int.Parse(Console.ReadLine());
+
+        //Console.Write(" b sonini kiriting : ");
+        //var b = int.Parse(Console.ReadLine());
+
+        //if(a < b)
+        //{
+        //    for (var i = a; i <= b; i++)
+        //    {
+        //        if(i % 5 == 0)
+        //        {
+        //            Console.WriteLine(i);
+        //        }
+        //    }
+        //}
+        //else
+        //{
+        //    Console.WriteLine("tepadagi shartga mos son kiriting !!");
+        //}
+
+        //11
+
+        //Console.WriteLine("a sonini b sonidan kichik bolsin !! ");
+
+        //Console.Write(" a sonini kiriting : ");
+        //var a = int.Parse(Console.ReadLine());
+
+        //Console.Write(" b sonini kiriting : ");
+        //var b = int.Parse(Console.ReadLine());
+
+        //if (a < b)
+        //{
+        //    for (var i = a; i <= b; i++)
+        //    {
+        //        if (i % 4 == 0 && i % 7 == 0)
+        //        {
+        //            Console.WriteLine(i);
+        //        }
+        //    }
+        //}
+        //else
+        //{
+        //    Console.WriteLine("tepadagi shartga mos son kiriting !!");
+        //}
+
+        //12
+
+        //Console.WriteLine("a sonini b sonidan kichik bolsin !! ");
+
+        //Console.Write(" a sonini kiriting : ");
+        //var a = int.Parse(Console.ReadLine());
+
+        //Console.Write(" b sonini kiriting : ");
+        //var b = int.Parse(Console.ReadLine());
+
+        //if (a < b)
+        //{
+        //    var count = 0;
+        //    for (var i = a; i <= b; i++)
+        //    {
+        //        if (i % 8 == 0)
+        //        {
+        //            count++;
+        //        }
+        //    }
+        //    Console.WriteLine($"{count} ta ");
+        //}
+        //else
+        //{
+        //    Console.WriteLine("tepadagi shartga mos son kiriting !!");
+        //}
+
+        //13
+
+        //Console.WriteLine("a sonini b sonidan kichik bolsin !! ");
+
+        //Console.Write(" a sonini kiriting : ");
+        //var a = int.Parse(Console.ReadLine());
+
+        //Console.Write(" b sonini kiriting : ");
+        //var b = int.Parse(Console.ReadLine());
+
+        //if (a < b)
+        //{
+        //    for (var i = b; i >= a; i--)
+        //    {
+        //        if (i % 5 == 0 && i % 9 == 0)
+        //        {
+        //            Console.WriteLine(i);
+        //        }
+        //    }
+        //}
+        //else
+        //{
+        //    Console.WriteLine("tepadagi shartga mos son kiriting !!");
+        //}
+
+        //14
+
+        //var count = 0;
+        //for (var i = 1; i <= 100; i++)
+        //{
+        //    if (i % 2 != 0)
+        //    {
+        //        count += i;
+        //    }
+        //}
+        //Console.WriteLine(count);
+
+        //15
+
+        //for (var i = 100; i < 1000; i++)
+        //{
+        //    var r1 = i / 1 % 10;
+        //    var r2 = i / 10 % 10;
+        //    var r3 = i / 100 % 10;
+        //    if (r1 + r2 + r3 > 20)
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
+
+        //16
+
+        //for(var i = 100; i < 1000; i++)
+        //{
+        //    var r1 = i / 1 % 10;
+        //    var r2 = i / 10 % 10;
+        //    var r3 = i / 100 % 10;
+        //    if(r1 == r3)
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
+
+        //17
+
+        //var sum = 0;
+        //var count = 0;
+
+        //for( var i =10; i < 100;i++ )
+        //{
+        //    var r1 = i % 10;
+        //    var r2 = i / 10;
+        //    if(r1 * r2 > 12)
+        //    {
+        //        count++;
+        //        sum += i;
+        //    }
+        //}
+        //Console.WriteLine(count);
+        //Console.WriteLine(sum);
+
+        //18
+
+        //for( var i = 100; i < 1000; i++)
+        //{
+        //    var r10 = i / 10 % 10;
+        //    if (r10 == 2 || r10 == 5)
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
+
+        //19
+
+        //Console.Write(" a sonini kiriting : ");
+        //var a = int.Parse(Console.ReadLine());
+
+        //for (var i = 1; i <= a; i++)
+        //{
+        //    Console.WriteLine(a);
+        //}
+
+        //20
+
+        //Console.Write(" a sonini kiting : ");
+        //var a = int.Parse(Console.ReadLine());
+
+        //Console.Write(" b sonini kiting : ");
+        //var b = int.Parse(Console.ReadLine());
+
+        //for (var i = 1; i <= b; i++)
+        //{
+        //    Console.WriteLine(a);
+        //}
+
+        //21
+
+        //Console.Write(" a sonini kiriti : ");
+        //var a = int.Parse(Console.ReadLine());
+
+        //Console.Write(" b sonini kiriti : ");
+        //var b = int.Parse(Console.ReadLine());
+
+        //for(var i = 1; i <=a; i++)
+        //{
+        //    Console.WriteLine(b);
+        //}
+
+        //22
+
+        //Console.Write(" a sonini kiting : ");
+        //var a = int.Parse(Console.ReadLine());
+
+        //for(var i = 1; i <= a; i++)
+        //{
+        //    if(a % i == 0)
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
+
+        //23
+
+        //Console.Write(" a sonini kiting : ");
+        //var a = int.Parse(Console.ReadLine());
+
+        //var count = 0;
+
+        //for (var i = 1; i <= a; i++)
+        //{
+        //    if (a % i == 0)
+        //    {
+        //        count++;
+        //    }
+        //}
+        //Console.WriteLine(count);
+
+        //24
+
+        //Console.Write(" a sonini kiting : ");
+        //var a = int.Parse(Console.ReadLine());
+
+        //var sum = 0;
+
+        //for (var i = 1; i <= a; i++)
+        //{
+        //    if (a % i == 0)
+        //    {
+        //        sum += i;
+        //    }
+        //}
+        //Console.WriteLine(sum);
+
+        //25
+
+        //Console.Write(" a sonini kiting : ");
+        //var a = int.Parse(Console.ReadLine());
+
+        //var count = 0;
+
+        //for (var i = 1; i <= a; i++)
+        //{
+        //    if (a % i == 0)
+        //    {
+        //        count++;
+        //    }
+        //}
+        //if(count == 2)
+        //{
+        //    Console.WriteLine(true);
+        //}
+        //else
+        //{
+        //    Console.WriteLine(false);
+        //}
+
+        //26
+
+        //Console.Write(" a sonini kiting : ");
+        //var a = int.Parse(Console.ReadLine());
+
+        //Console.Write(" b sonini kiting : ");
+        //var b = int.Parse(Console.ReadLine());
+
+        //var count = 0;
+
+        //for (var i = 1; i <= a; i++)
+        //{
+        //    if (a % i == 0)
+        //    {
+        //        count++;
+        //    }
+        //}
+        //var count1 = 0;
+        //for (var i = 1; i <= b; i++)
+        //{
+        //    if (b % i == 0)
+        //    {
+        //        count1++;
+        //    }
+        //}
+        //if (count == 2 && count1 == 2)
+        //{
+        //    Console.WriteLine(a + b);
+        //}
+        //else
+        //{
+        //    Console.WriteLine(a * b);
+        //}
+
+        //27
+
+        //Console.WriteLine(" 1 kg shakar 15000 so'm !! ");
+        //for(var i = 1; i <= 60; i++)
+        //{
+        //    Console.WriteLine($"{i} kg shakar {i * 15000} so'm");
+        //}
+
+        //28
+
+        //Console.Write(" n sonini kiriting : ");
+        //var n = int.Parse(Console.ReadLine());
+
+        //var count = 0;
+
+        //for (var i = 23; i <= n; i++) 
+        //{
+        //    if(i % 3 != 0)
+        //    {
+        //        count++;
+        //        Console.WriteLine(i);
+        //    }
+        //}
+        //Console.WriteLine($"3 ga bo'linmaydiganlari {count} ta");
+
+        //29
+
+        //Console.Write(" a sonini kiting : ");
+        //var a = int.Parse(Console.ReadLine());
+
+        //Console.Write(" b sonini kiting : ");
+        //var b = int.Parse(Console.ReadLine());
+
+        //var count = 0;
+
+        //for (var i = 1; i <= a; i++)
+        //{
+        //    if (a % i == 0)
+        //    {
+        //        count++;
+        //    }
+        //}
+        //var count1 = 0;
+        //for (var i = 1; i <= b; i++)
+        //{
+        //    if (b % i == 0)
+        //    {
+        //        count1++;
+        //    }
+        //}
+        //Console.WriteLine(count);
+        //Console.WriteLine(count1);
+
+        //30
+
+        //Console.WriteLine(" a soni b sonidan kichik bolsin !! ");
+
+        //Console.Write(" a sonini kiting : ");
+        //var a = int.Parse(Console.ReadLine());
+
+        //Console.Write(" b sonini kiting : ");
+        //var b = int.Parse(Console.ReadLine());
+
+        //var sum = 0;
+        //for (int i = a + 1; i < b; i++)
+        //{
+        //    sum += i;
+        //}
+        //Console.WriteLine(sum);
+
+        //////////////1.3.2////homeworks//////////
+
+        //1
+
+        //Console.Write(" sonni kiriting : ");
+        //var a = int.Parse(Console.ReadLine());
+
+        //var count = 0;
+
+        //while (a != 0)
+        //{
+        //    a = a / 10;
+        //    count++;
+        //}
+        //Console.WriteLine($"{count} xonali son");
+
+        //2
+
+        //Console.Write(" sonni kiriting : ");
+        //var num = int.Parse(Console.ReadLine());
+
+        //var sum = 0;
+
+        //while(num != 0)
+        //{
+        //    var a = num % 10;
+        //    sum += a;
+        //    num = num / 10;
+        //}
+        //Console.Write($"sonni raqamlari yigindisi : {sum}");
+
+        //3
+
+        //Console.Write(" sonni kiriting : ");
+        //var num = int.Parse(Console.ReadLine());
+
+        //var count = 0;
+
+        //while(num != 0)
+        //{
+        //    var a = num % 10;
+        //    if(a % 2 == 0)
+        //    {
+        //        count++;
+        //    }
+        //    num = num / 10;
+        //}
+        //Console.WriteLine(count);
+
+        //4
+
+        //Console.Write(" sonni kiriting : ");
+        //var num = int.Parse(Console.ReadLine());
+
+        //var count = 0;
+
+        //while (num != 0)
+        //{
+        //    var a = num % 10;
+        //    if (a % 2 != 0)
+        //    {
+        //        count++;
+        //    }
+        //    num = num / 10;
+        //}
+        //Console.WriteLine(count);
+
+        //5
+
+        //var count = 0;
+        //while(true)
+        //{
+        //    Console.Write(" sonni kiriting : ");
+        //    var num = int.Parse(Console.ReadLine());
+        //    if( num == 0)
+        //    {
+        //        break;
+        //    }
+        //    count++;
+        //}
+        //Console.WriteLine(count);
+
+        //6
+
+        //var coutn = 0;
+        //while(true)
+        //{
+        //    Console.Write(" sonni kiriting : ");
+        //    var num = int.Parse(Console.ReadLine());
+        //    if(num > 10)
+        //    {
+        //        coutn++;
+        //    }
+        //    if(num == 0)
+        //    {
+        //        break;
+        //    }
+        //}
+        //Console.WriteLine(coutn);
+
+        //7
+
+        //var sum = 0;
+        //while(true)
+        //{
+        //    Console.Write(" sonni kiriting : ");
+        //    var num = int.Parse(Console.ReadLine());
+        //    if(num ==0)
+        //    {
+        //        break;
+        //    }
+        //    sum += num;
+        //}
+        //Console.WriteLine(sum);
+
+        //8
+
+        //var product = 1;
+        //while (true)
+        //{
+        //    Console.Write(" sonni kiriting : ");
+        //    var num = int.Parse(Console.ReadLine());
+        //    if (num == 0)
+        //    {
+        //        break;
+        //    }
+        //    product *= num;
+        //}
+        //Console.WriteLine(product);
+
+        //9
+
+        //var sum = 0;
+        //while(true)
+        //{
+        //    Console.Write(" sonni kiriting : ");
+        //    var num = int.Parse(Console.ReadLine());
+        //    if(num == 0)
+        //    {
+        //        break;
+        //    }
+        //    if(num > 50)
+        //    {
+        //        sum += num;
+        //    }
+        //}
+        //Console.WriteLine(sum);
+
+        //10
+
+        //var count = 0;
+
+        //while (true)
+        //{
+        //    Console.Write(" sonni kiriting : ");
+        //    var num = int.Parse(Console.ReadLine());
+
+        //    count++;
+
+        //    if (num % 2 ==0)
+        //    {
+        //        break;
+        //    }
+        //}
+        //Console.WriteLine(count);
+
+        //11
+
+        //Console.WriteLine(" sonni kiriting : ");
+        //var num = int.Parse(Console.ReadLine());
+        //while(true)
+        //{
+        //    var a = num % 10;
+        //    if(a == 5)
+        //    {
+        //        Console.WriteLine(true);
+        //        break;
+        //    }
+        //    if(a != 5)
+        //    {
+        //        Console.WriteLine(false); 
+        //        break;
+        //    }
+        //    num = num / 10;
+        //}
+
+        //12
+
+        //Console.Write(" sonni kiriting : ");
+        //var num = int.Parse(Console.ReadLine());
+        //while(true)
+        //{
+        //    var a = num % 10;
+        //    if(num % 2 ==0)
+        //    {
+        //        Console.WriteLine(true);
+        //        break;
+        //    }
+        //    if(num % 2 != 0)
+        //    {
+        //        Console.WriteLine(false);
+        //        break;
+        //    }
+        //    num /= 10;
+        //}
+
+        //////////NESTED LOOP////
+
+        //1
+
+        //for (var i = 1; i <= 9; i++)
+        //{
+        //    for(var j = 1; j<=9; j++)
+        //    {
+        //        Console.Write($"{i} * {j} = {i * j} \n");
+        //    }
+        //    Console.WriteLine();
+        //}
+
+        //2
+
+        //Console.Write(" a sonni kiriting : ");
+        //var a = int.Parse(Console.ReadLine());
+
+        //Console.Write(" b sonni kiriting : ");
+        //var b = int.Parse(Console.ReadLine());
+
+        //for (var i = a + 1; i < b; i++)
+        //{
+        //    for (var j = 1; j <= i; j++)
+        //    {
+        //        Console.Write(i);
+        //    }
+        //    Console.WriteLine();
+        //}
+
+        //3
+
+        //for (int i = 1; i <= 100; i++)
+        //{
+        //    var count = 0;
+        //    for (int j = 1; j <= i; j++)
+        //    {
+        //        if (i % j == 0)
+        //        {
+        //            count++;
+        //        }
+        //    }
+        //    if (count == 2)
+        //    {
+        //        Console.Write($"{i}, ");
+        //    }
+        //}
+
+        //4
+
+        //Console.Write(" a sonini kirit : ");
+        //var a = int.Parse(Console.ReadLine());
+
+        //Console.Write(" b sonini kirit : ");
+        //var b = int.Parse(Console.ReadLine());
+
+        //if (a < b)
+        //{
+        //    for (var i = a; i <= b; i++)
+        //    {
+        //        var count = 0;
+        //        for (var j = 1; j <= i; j++)
+        //        {
+        //            if (i % j == 0)
+        //            {
+        //                count++;
+        //            }
+        //        }
+        //        if (count == 2)
+        //        {
+        //            Console.Write($"{i}, ");
+        //        }
+
+        //    }
+        //}
+        //else
+        //{
+        //    Console.WriteLine("sen kliritgan son a>b dan boldi faqat b>a bolsa dastur ishlaydi !!! ");
+        //}
 
 
-///homeworsk 1.3.2
 
-////1 
-//for(var i = 2; i < 10; i++)
-//{
-//    for (var j = 2; j < 10; j++)
-//    {
-//        Console.Write($"{j} * {i} = {i * j}\t");
-//    }
-//    Console.WriteLine();
-//}
 
-////2
-//intVaule1 = 2;
-//intVaule2 = 6;
-//for (var i = intVaule1+1; i < intVaule2; i++)
-//{
-//    for (var j = 0; j <i; j++)
-//    {
-//        Console.Write($"{i} ");
-//    }
-//}
 
-////3
-//for (var i = 1; i <= 100; i++)
-//{
-//    caunt = 0;
-//    for (var j = 1; j <= i; j++)
-//    {
-//        if (i % j == 0)
-//        {
-//            caunt++;
-//        }
-//    }
-//    if(caunt == 2)
-//    {
-//        Console.Write($"{i}, ");
-//    }
-//}
 
-////4
-//intVaule1 = 2;
-//intVaule2 = 30;
-//for (var i = intVaule1; i <= intVaule2; i++)
-//{
-//    caunt = 0;
-//    for (var j = 1; j <= i; j++)
-//    {
-//        if (i % j == 0)
-//        {
-//            caunt++;
-//        }
-//    }
-//    if (caunt == 2)
-//    {
-//        Console.Write($"{i}, ");
-//    }
-//}
 
-////5
-//intVaule1 = 5;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    for (var j = 0; j < intVaule1; j++)
-//    {
-//        Console.Write($"* ");
-//    }
-//    Console.WriteLine();
-//}
-
-////6
-//intVaule1 = 5;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    for (var j = 0; j < intVaule1; j++)
-//    {
-//        if (j == 0 || intVaule1 - 1 == j)
-//        {
-//            Console.Write($"* ");
-//        }
-//        else
-//        {
-//            Console.Write("  ");
-//        }
-//    }
-//    Console.WriteLine();
-//}
-
-////7
-//intVaule1 = 5;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    for (var j = 0; j < intVaule1; j++)
-//    {
-//        if (i == 0 || intVaule1 - 1 == i)
-//        {
-//            Console.Write($"* ");
-//        }
-//        else
-//        {
-//            Console.Write("  ");
-//        }
-//    }
-//    Console.WriteLine();
-//}
-
-////8
-//intVaule1 = 5;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    for (var j = 0; j < intVaule1; j++)
-//    {
-//        if (j == 0 || intVaule1 - 1 == j || i == 0 || intVaule1 - 1 == i)
-//        {
-//            Console.Write($"* ");
-//        }
-//        else
-//        {
-//            Console.Write("  ");
-//        }
-//    }
-//    Console.WriteLine();
-//}
-
-////9
-//intVaule1 = 5;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    for (var j = 0; j < intVaule1; j++)
-//    {
-//        if (j == 0 || intVaule1 - 1 == j || intVaule1/2==i)
-//        {
-//            Console.Write($"* ");
-//        }
-//        else
-//        {
-//            Console.Write("  ");
-//        }
-//    }
-//    Console.WriteLine();
-//}
-
-////10
-//intVaule1 = 5;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    for (var j = 0; j < intVaule1; j++)
-//    {
-//        if (j == 0 || intVaule1 - 1 == i || intVaule1 / 2 == i || i ==0)
-//        {
-//            Console.Write($"* ");
-//        }
-//        else
-//        {
-//            Console.Write("  ");
-//        }
-//    }
-//    Console.WriteLine();
-//}
-
-////11
-//intVaule1 = 5;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    for (var j = 0; j < intVaule1; j++)
-//    {
-//        if (i == 0 || intVaule1 / 2 == j)
-//        {
-//            Console.Write($"* ");
-//        }
-//        else
-//        {
-//            Console.Write("  ");
-//        }
-//    }
-//    Console.WriteLine();
-//}
-
-////12
-//intVaule1 = 5;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    for (var j = 0; j < intVaule1; j++)
-//    {
-//        if ( intVaule1 /2 == j || intVaule1 / 2 == i)
-//        {
-//            Console.Write($"* ");
-//        }
-//        else
-//        {
-//            Console.Write("  ");
-//        }
-//    }
-//    Console.WriteLine();
-//}
-
-////13
-//intVaule1 = 5;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    for (var j = 0; j < intVaule1; j++)
-//    {
-//        if (intVaule1 / 2 == j || intVaule1 / 2 == i || j == 0 || intVaule1 - 1 == j || i == 0 || intVaule1 - 1 == i)
-//        {
-//            Console.Write($"* ");
-//        }
-//        else
-//        {
-//            Console.Write("  ");
-//        }
-//    }
-//    Console.WriteLine();
-//}
-
-////14
-//intVaule1 = 5;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    for (var j = 0; j < intVaule1; j++)
-//    {
-//        if ( j == i)
-//        {
-//            Console.Write($"* ");
-//        }
-//        else
-//        {
-//            Console.Write("  ");
-//        }
-//    }
-//    Console.WriteLine();
-//}
-
-////15
-//intVaule1 = 5;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    for (var j = 0; j < intVaule1; j++)
-//    {
-//        if (j + i == intVaule1-1)
-//        {
-//            Console.Write($"* ");
-//        }
-//        else
-//        {
-//            Console.Write("  ");
-//        }
-//    }
-//    Console.WriteLine();
-//}
-
-////16
-//intVaule1 = 5;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    for (var j = 0; j < intVaule1; j++)
-//    {
-//        if (j == i || j == 0 || intVaule1-1==j )
-//        {
-//            Console.Write($"* ");
-//        }
-//        else
-//        {
-//            Console.Write("  ");
-//        }
-//    }
-//    Console.WriteLine();
-//}
-
-////17
-//intVaule1 = 5;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    for (var j = 0; j < intVaule1; j++)
-//    {
-//        if (j == i || i == 0 || intVaule1 - 1 == i)
-//        {
-//            Console.Write($"* ");
-//        }
-//        else
-//        {
-//            Console.Write("  ");
-//        }
-//    }
-//    Console.WriteLine();
-//}
-
-////18
-//intVaule1 = 5;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    for (var j = 0; j < intVaule1; j++)
-//    {
-//        if (j <= i )
-//        {
-//            Console.Write($"* ");
-//        }
-//        else
-//        {
-//            Console.Write("  ");
-//        }
-//    }
-//    Console.WriteLine();
-//}
-
-////19
-//intVaule1 = 5;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    for (var j = 0; j < intVaule1; j++)
-//    {
-//        if (j >= i)
-//        {
-//            Console.Write($"* ");
-//        }
-//        else
-//        {
-//            Console.Write("  ");
-//        }
-//    }
-//    Console.WriteLine();
-//}
-
-////20
-//intVaule1 = 5;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    for (var j = 0; j < intVaule1; j++)
-//    {
-//        if (j + i >= intVaule1-1)
-//        {
-//            Console.Write($"* ");
-//        }
-//        else
-//        {
-//            Console.Write("  ");
-//        }
-//    }
-//    Console.WriteLine();
-//}
-//for (int i = 0; i < intVaule1; i++)
-//{
-//    for (int j = 0; j < intVaule1; j++)
-//    {
-//        if (j + i >= intVaule1 - 1)
-//        {
-//            Console.Write((i+1)+""+(j+1 ) +" ");
-//        }
-//        else
-//        {
-//            Console.Write("   ");
-//        }
-//    }
-//    Console.WriteLine();
-//}
-
-////21
-//intVaule1 = 5;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    for (var j = 0; j < intVaule1; j++)
-//    {
-//        Console.Write($"{i+1} ");
-//    }
-//    Console.WriteLine();
-//}
-
-////22
-//intVaule1 = 5;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    for (var j = 0; j < intVaule1; j++)
-//    {
-//        if (j == i)
-//        {
-//            Console.Write($"{i+1} ");
-//        }
-//        else
-//        {
-//            Console.Write("  ");
-//        }
-//    }
-//    Console.WriteLine();
-//}
-
-////23
-//intVaule1 = 5;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    for (var j = 0; j < intVaule1; j++)
-//    {
-//        if (i >= j)
-//        {
-//            Console.Write($"{i+1} ");
-//        }
-//        else
-//        {
-//            Console.Write("  ");
-//        }
-//    }
-//    Console.WriteLine();
-//}
-
-////24
-//intVaule1 = 5;
-//for (var i = 0; i < intVaule1; i++)
-//{
-//    for (var j = 0; j < intVaule1; j++)
-//    {
-//        if (j == i || i + j == intVaule1 -1)
-//        {
-//            Console.Write($"$ ");
-//        }
-//        else
-//        {
-//            Console.Write("  ");
-//        }
-//    }
-//    Console.WriteLine();
-//}
-
-////homeworks 1.3.3
+    }
+}
